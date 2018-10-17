@@ -1,0 +1,63 @@
+.backgroundImage {
+  height: 90vh;
+  left: 270px;
+  z-index: 9;
+  position: absolute;
+  bottom: 0;
+}
+
+.shopContainer {
+  position: absolute;
+  min-height: 60vh;
+  min-width: 40vw;
+  bottom: 100px;
+  right: 150px;
+  flex-direction: column;
+}
+
+.tag {
+  padding: 3px;
+  width: 45px;
+  background: red;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.boldTitle {
+  font-size: 40px;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: 300;
+  color: grey;
+}
+
+.buttonPack {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.rowSizeContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  ul {
+    margin: 10px;
+  }
+  p {
+    margin: 10px;
+    font-size: 13px;
+    color: grey;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+};
